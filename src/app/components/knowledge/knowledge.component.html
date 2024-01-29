@@ -1,0 +1,19 @@
+<div class="container">
+
+    <h2>Conhecimentos</h2>
+
+    <ul>
+
+        <li *ngFor="let icon of iconsArray">
+            <img 
+                [src]="icon.src" 
+                [alt]="icon.alt"
+                loading="lazy"
+                width="22px"
+                height="24px" 
+            >
+        </li>
+
+    </ul>
+
+</div>
